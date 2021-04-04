@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('images/clr-sky.jpg');
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;/*imp for getting full img on desktop */
+    font-family: 'Montserrat', sans-serif;
+}
+.main{
+    width: 50vh;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(240,248, 255, 0.4);
+    text-align: center;
+}
+
+.main > *{
+    margin-bottom: 20px;
+}
+.inputBox{
+    width: 80%;
+    background-color: rgba(251, 253, 255, 0.6) ;
+    font-family: 'Montserrat';
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+}
+.inputBox:focus{
+    background-color: rgba(255,255,255,0.8);
+}
+.weather-body{
+    display: none;
+    padding: 20px;
+    line-height: 2.5rem;
+    border-radius: 10p;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.location{
+    padding-bottom: 1.8rem;
+}
+.temp{
+    font-size: 4rem;
+    padding: 20px;
+}
+
+
+
