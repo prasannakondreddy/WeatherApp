@@ -13,7 +13,7 @@ searchInputBox.addEventListener('keypress',(event)=>{
 
 //Get report
 function getWeatherReport(city){
-    let api = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&units=metric`;
+    let api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&units=metric`;
     fetch(api)
     .then(function(response){
         let data=response.json();
